@@ -5,7 +5,7 @@
 The code is solving the following variational formulation
 
 $$
-    \rho^{n+1} = \text{arg}\min_{\rho} \mathcale{E}(\rho) + \frac{1}{2} W^2_2(\rho, \rho^n)
+    \rho^{n+1} = \text{arg}\min_{\rho} \mathcal{E}(\rho) + \frac{1}{2} W^2_2(\rho, \rho^n)
 $$
 
 where this formulation is a discrete-in-time variational formulation of the following PDE:
