@@ -1,4 +1,4 @@
-# Neural network implementation for solving JKO scheme with various internal energy functional.
+# Neural network implementation for solving JKO scheme with various internal energy functionals.
 
 **Note:** This repository is based on the following repository: [https://github.com/EmoryMLIP/OT-Flow](https://github.com/EmoryMLIP/OT-Flow).
 
@@ -17,7 +17,7 @@ $$
 Currently, the choice of the internal energy functional in the code `train.py` is
 
 $$
-    \mathcal{E}(\rho) = \int \rho(x) \log \left( \frac{\rho(x)}{q(x)} \right) \, dx
+    \mathcal{E}(\rho) = \int \rho(x) \log \left( \frac{\rho(x)}{q(x)} \right) dx
 $$
 
 where $q$ is a reference probability distribution.
